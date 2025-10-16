@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Gym Management System</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header class="hero">
+    <div class="hero-content">
+      <h1>GYM MANAGEMENT SYSTEM</h1>
+      <p>Streamline operations, engage members, and grow stronger — one dashboard at a time.</p>
+      <button id="openModal" class="cta">Get Started — Free Trial</button>
+    </div>
+  </header>
+
+  <section class="features">
+    <div class="card">💪 Member Management</div>
+    <div class="card">📅 Bookings & Classes</div>
+    <div class="card">💳 Payments & Analytics</div>
+  </section>
+
+  <footer>
+    <p>© 2025 Gym Management System. All rights reserved.</p>
+  </footer>
+
+  <!-- Modal -->
+  <div id="modal" class="modal" role="dialog" aria-modal="true" aria-labelledby="modalTitle" aria-hidden="true">
+    <div class="modal-content">
+      <h2 id="modalTitle">Start your free trial</h2>
+      <p>We’ll help you set up your gym dashboard in minutes.</p>
+      <button id="closeModal" class="secondary">Close</button>
+    </div>
+  </div>
+
+  <script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/gsap.min.js"></script>
+  <script src="scripts.js"></script>
+</body>
+</html>
